@@ -1,7 +1,7 @@
 const express = require('express');
 const HotelRoom = require('./models/HotelRoom');
 
-// Create an Express ap
+// Create an Express app
 const app = express();
 app.use(express.json());
 
