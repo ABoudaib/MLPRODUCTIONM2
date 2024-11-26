@@ -26,8 +26,8 @@ jobs:
 
       - name: Docker image
         run: |
-          docker build -t ABoudaib/mlproduction2:latest .
+          docker build -t ABoudaib/mlproductionm2:latest .
 
       - name: Push Docker image
         run: |
-          docker push ABoudaib/mlproduction2:latest 
+          docker push ABoudaib/mlproductionm2:latest 
